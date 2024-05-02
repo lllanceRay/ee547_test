@@ -1,0 +1,40 @@
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.node-selector {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.ddos-status {
+    margin-top: 20px;
+}
+
+.status-prediction, .status-actual {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+.status-prediction span, .status-actual span {
+    font-weight: bold;
+}
+
+.detected {
+    color: #D32F2F; /* Red for detected */
+}
+
+.normal {
+    color: #388E3C; /* Green for normal */
+}
